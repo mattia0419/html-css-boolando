@@ -112,5 +112,19 @@
         right: 48px;
         bottom: 125px;
     }
-    
+    footer{
+        background-color: #1A1A1A;
+        height: 100px;
+        width: 100%;
+        color: white;
+    }
+    .foot{
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 25px;
+        line-height: 24px;
+    }
+    .m-right{
+        margin-right: 5px;
+    }
     
