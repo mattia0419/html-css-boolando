@@ -1,0 +1,116 @@
+*{
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    }
+    body{
+        margin-top: 130px;
+    }
+    header{
+        height: 70px;
+        width: 100%;
+        color: white;
+        background-color:#FF6900;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        z-index: 10;
+    }
+    nav{
+        justify-content: space-between;
+    }
+    .type{
+        margin-right: 3px;
+        
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    img{
+        max-width: 100%;
+    }
+    .container{
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .flex{
+        display: flex;
+    }
+    .wrap{
+        flex-wrap: wrap;
+    }
+    .logo{
+        height: 20px;
+    }
+    .card{
+        height: 500px;
+        width: 300px;
+        margin-bottom: 65px;
+        position: relative;
+    }
+    main{
+        justify-content: space-between;
+    }
+    .red{
+        color: red;
+    }
+    .ov-line{
+        text-decoration: line-through;
+    }
+    .none{
+        position: absolute;
+        z-index: 1;  
+    }
+    .card:hover .none{
+        z-index: 3;
+        
+    }
+    .card:hover .text{
+        z-index: 3;
+    }
+    .block{
+        position: relative;
+        z-index: 2;
+    }
+    
+    .text{
+        position: relative;
+        z-index: 2;
+    }
+    .heart{
+        background-color: white;
+        height: 35px;
+        width: 43px;
+        position: relative;
+        z-index: 3;
+        bottom: 470px;
+        left: 255px;
+        padding: 10px;
+    }
+    .heart:hover{
+        color: red;
+    }
+    .label-red{
+        background-color: red;
+        color: white;
+        padding: 5px;
+        font-size: 10px;
+        position: relative;
+        z-index: 3;
+        right: 48px;
+        bottom: 125px;
+    }
+    .label-green{
+        background-color: green;
+        color: white;
+        padding: 5px;
+        font-size: 10px;
+        position: relative;
+        z-index: 3;
+        right: 48px;
+        bottom: 125px;
+    }
+    
+    
